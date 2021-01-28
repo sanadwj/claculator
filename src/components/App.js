@@ -1,11 +1,12 @@
 import React from 'react';
 import Display from './Display';
+import ButtonPanel from './ButtonPanel';
 
 function App() {
   return (
     <>
       <Display />
-      <h1>Hello World</h1>
+      <ButtonPanel />
     </>
   );
 }

@@ -20,13 +20,13 @@ const operate = (numberOne, numberTwo, operation) => {
       result = numOne.div(numTwo);
       break;
     case '%':
-      result = numOne.mod(numTwo);
+      result = numOne.times(Big(0.01));
       break;
     case '+/-':
       result = numOne.times(minusOne);
       break;
     default:
-      break;
+      return -1;
   }
 
   return result;

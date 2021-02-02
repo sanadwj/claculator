@@ -1,10 +1,18 @@
 import React from 'react';
+
+// import PropTypes from 'prop-types';
 import Button from './Button';
 
-const ButtonPanel = () => {
+const ButtonPanel = props => {
+  console.log(props);
   const handleClick = buttonName => {
-    this.props.clickHandler(buttonName);
+    // eslint-disable-next-line react/prop-types
+    props.clickHandler(buttonName);
   };
+  // ButtonPanel.propTypes = {
+  //
+  //   clickHandler: PropTypes.func,
+  // };
   return (
     <>
       <div>

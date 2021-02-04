@@ -2,14 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = props => {
-  console.log(props);
   const handleClick = buttonName => {
-    // eslint-disable-next-line react/prop-types
-    props.clickHandler(buttonName);
+    props.handleClick(buttonName);
   };
+
   const { name } = props;
   return (
-    <button onClick={handleClick} type="button">
+    <button onClick={() => { handleClick(name); }} type="button">
       <h3>{name}</h3>
     </button>
   );
@@ -17,6 +16,7 @@ const Button = props => {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default Button;

@@ -19,7 +19,7 @@ const operate = (numberOne, numberTwo, operation) => {
     case '+/-':
       return numOne.times(minusOne).toNumber();
     default:
-      return -1;
+      return Error;
   }
 };
 

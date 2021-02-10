@@ -5,7 +5,8 @@ body {
 .calculator {
   display: flex;
   flex-direction: column;
-  max-width: 700px;
+  width: 700px;
+  padding: 30px;
 }
 
 .display {
@@ -27,4 +28,50 @@ body {
 
 .buttonDiv {
   width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar h1 {
+  font-size: 45px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.quote {
+  display: block;
+  justify-content: center;
+  align-items: start;
+  padding: 50px;
+}
+
+.home {
+  padding: 20px;
+}
+
+.lorem {
+  padding: 30px;
+}
+
+.calculate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculate h2 {
+  padding: 20px;
 }

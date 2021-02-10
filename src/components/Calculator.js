@@ -18,9 +18,12 @@ const Calculator = () => {
 
   return (
     <>
-      <div className="calculator">
-        <Display total={state.total} operation={state.operation} next={state.next} />
-        <ButtonPanel clickHandler={handleClick} />
+      <div className="calculate">
+        <h2>Let`s do some math!</h2>
+        <div className="calculator">
+          <Display total={state.total} operation={state.operation} next={state.next} />
+          <ButtonPanel clickHandler={handleClick} />
+        </div>
       </div>
     </>
 

@@ -1,3 +1,30 @@
 body {
   margin: 0 auto;
 }
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
+
+.display {
+  display: flex;
+  max-width: 700px;
+  background-color: gray;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+}
+
+.buttonPanel {
+  max-width: 700px;
+}
+
+.buttonDiv {
+  width: 100%;
+}

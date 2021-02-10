@@ -10,7 +10,7 @@ export default function calculate(calculatorObj, buttonName) {
   switch (buttonName) {
     case '+':
     case '-':
-    case '/':
+    case '÷':
     case 'X':
     case '=':
       if (total !== '' && next !== '') {

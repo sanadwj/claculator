@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './App.css';
 
 const Display = props => {
   const { total, operation, next } = props;
   return (
-    <h1>
+    <h1 className="display">
       {(!total && next) || total }
       {operation }
       {(total && next)}

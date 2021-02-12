@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 1`] = `
+<div>
+  <nav
+    className="navbar"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home |
+        </a>
+      </li>
+      <li>
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator |
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2
+    className="home"
+  >
+    Welcome to our page!
+  </h2>
+  <p
+    className="lorem"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam architecto aspernatur atque commodi earum exercitationem expedita facere hic incidunt itaque laborum magnam minima molestiae molestias praesentium quas quibusdam recusand.
+  </p>
+</div>
+`;
+
+exports[`Display renders correctly 1`] = `
+<div>
+  <nav
+    className="navbar"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home |
+        </a>
+      </li>
+      <li>
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator |
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2
+    className="home"
+  >
+    Welcome to our page!
+  </h2>
+  <p
+    className="lorem"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam architecto aspernatur atque commodi earum exercitationem expedita facere hic incidunt itaque laborum magnam minima molestiae molestias praesentium quas quibusdam recusand.
+  </p>
+</div>
+`;

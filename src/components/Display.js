@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './App.css';
+import '../styles/App.css';
 
 const Display = props => {
   const { total, operation, next } = props;
